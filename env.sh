@@ -1,0 +1,9 @@
+export MACH=sm1
+export ARCH=arm64
+export BOARD=bpi-m5
+export UBOOT_CONFIG=bananapi_m5_defconfig
+export KERNEL_DTB=meson64_bananapi_*.dtb
+export KERNEL_CONFIG=bananapi_m5_defconfig
+export KERNEL_MODULES=4.9.312-BPI-M5
+export KERNEL_HEADERS=linux-headers-4.9.312-BPI-M5
+export TOPDIR=/root/BPI-M5-bsp
